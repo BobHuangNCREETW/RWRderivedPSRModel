@@ -4,4 +4,6 @@ This study presents a new empirical probability model for surface rupture (PSR) 
 
 The new RWR-derived PSR model is provided in [sub_RWR_derived_PSRmodel.m], with an example main program in [main_prediction.m]. The regression code for an example table is provided in [sub_fitBetaMLE_fixbeta.m] for the stage 1 (S1) model and in [sub_fitBetaMLE_fixbeta_addedNMZHypo.m] for the stage 2 (S2) model, with an example main program in [main_regression.m].
 
+Example codes for applying the proposed procedure to translate the regional-scale source-scaling models provided by Hea24 into a fault-based Hea24 SSM are shown in the folder [fault_based_SSM_PSR_application], which corresponds to Fig. 13(b) and Fig. 14(a). The main example program is in [main_fault_based_Hea24_w_RWR_PSR.m], with a fundamental fault-based Hea24 SSM provided in [sub_fault_based_Hea24.m] and [sub_makeComparecurve.m], and other related scripts include [sub_pt_AV_range.m], [sub_pt_progress_comp_threecurves.m], [sub_pt_RWRPSR_w_other_models.m], and [sub_RWR_derived_PSRmodel.m]. The [sub_CPSR_Mea24.m] is sourced from CPSR: Mea24 (Mammarella et al. EQS (2024), doi: 10.1177/87552930241293570), which was downloaded from https://github.com/MammarellaLisa/CPSR (last accessed May 2025).
+
 These are developed by Bob J.Y. Huang and Norman A. Abrahamson (2026, in preparation).
